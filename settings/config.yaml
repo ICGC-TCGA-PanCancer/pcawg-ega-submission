@@ -6,3 +6,12 @@ ftp_server: ftp.ega.ebi.ac.uk
 
 metadata_endpoint_test: "https://www-test.ebi.ac.uk/ena/submit/drop-box/submit/?auth="
 metadata_endpoint_prod: "https://www.ebi.ac.uk/ena/submit/drop-box/submit/?auth="
+
+analysis_types:
+  - analysis_alignment.PCAWG_RNA-Seq_Star
+  - analysis_alignment.PCAWG_RNA-Seq_TopHat2
+  - analysis_alignment.PCAWG_WGS_BWA
+  - analysis_variation.PCAWG_Variant_Broad
+  - analysis_variation.PCAWG_Variant_Muse
+  - analysis_variation.PCAWG_Variant_DKFZ-EMBL
+  - analysis_variation.PCAWG_Variant_Sanger
