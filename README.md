@@ -73,7 +73,7 @@ Here shows how the repo is organized. Top level folders include 'settings', 'fil
 │   │   └── f9f498a1-0293-488b-b634-b728f3bdcd73
 │   │       ├── 2aaf3eee5c612b9fd1507722dcaf91ab.bam.bai.gpg
 │   │       └── analysis.f9f498a1-0293-488b-b634-b728f3bdcd73.GNOS.xml.gz.gpg
-│   ├── missed_files
+│   ├── files_missed_on_ftp_server
 │   │   ├── 296945a7-bd8a-4c2b-8e37-21cd84a7db93
 │   │   │   └── ab25474cdf02a11aa3aca157a359f638.bam.gpg
 │   │   ├── 4d1fcef5-9c33-4852-963e-00dc2393eaf2
@@ -84,11 +84,13 @@ Here shows how the repo is organized. Top level folders include 'settings', 'fil
 │   │   │   └── e4bab214f06cb0664d4bb265fc3b9a1f.bam.gpg
 │   │   └── f87f8019-db9f-46d0-9e39-d16a37646815
 │   │       └── 1faf4818aef944ccd0cea1553aa19f55.bam.gpg
-│   └── staged_files.tsv
+│   └── file_info.tsv
 ├── file_info
+│   ├── GNOS_xml_file_info
+│   │   └── CLLE-ES.bwa_1454701663.tsv
 │   ├── file_info_missing
-│   ├── missed_files
-│   └── staged_files.tsv
+│   ├── files_missed_on_ftp_server
+│   └── file_info.tsv
 ├── settings
 │   ├── analysis_alignment.template.xml
 │   ├── analysis_variation.template.xml
