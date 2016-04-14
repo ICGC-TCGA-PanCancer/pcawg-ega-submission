@@ -156,7 +156,7 @@ Finally, after all Analysis objects are submitted to EGA, we create EGA dataset 
 This is done the following two steps:
 ```
 ega_sub --auth 'xxxx' prepare dataset analysis
-ega_sub --auth 'xxxx' submit dataset analysis
+ega_sub --auth 'xxxx' submit dataset dataset.*_PCAWG_WGS_BWA.xml
 ```
 Important, this must be done after all analysis objects have been submitted. We create only one dataset for each data type per ICGC project.
 
