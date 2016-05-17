@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ANALYSIS_SET>
+	<ANALYSIS alias="f0f7f376-8c5d-4af9-b627-c1a5d6b6cdbb" center_name="RIKEN" broker_name="EGA" analysis_center="OICR" analysis_date="2014-09-26T19:36:55" accession="EGAZ00001229819">
+		<TITLE>TCGA/ICGC PanCancer Specimen-Level Alignment for Specimen RK109_B01 from Participant RK109</TITLE>
+		<DESCRIPTION>Specimen-level BAM from the reference alignment of specimen RK109_B01 from donor RK109. This uses the SeqWare BWA-MEM PanCancer Workflow version 2.6.1 available at https://s3.amazonaws.com/oicr.workflow.bundles/released-bundles/Workflow_Bundle_BWA_2.6.1_SeqWare_1.0.15.zip. This workflow can be created from source, see https://github.com/SeqWare/public-workflows/tree/2.6.1/workflow-bwa-pancancer. For a complete change log see https://github.com/SeqWare/public-workflows/blob/2.6.1/workflow-bwa-pancancer/CHANGELOG.md. Input BAMs are prepared and submitted to GNOS server according to the submission SOP documented at: https://wiki.oicr.on.ca/display/PANCANCER/PCAP+%28a.k.a.+PAWG%29+Sequence+Submission+SOP+-+v1.0. Please note the reference is hs37d, see ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/README_human_reference_20110707 for more information. Briefly this is the integrated reference sequence from the GRCh37 primary assembly (chromosomal plus unlocalized and unplaced contigs), the rCRS mitochondrial sequence (AC:NC_012920), Human herpesvirus 4 type 1 (AC:NC_007605) and the concatenated decoy sequences (hs37d5cs.fa.gz).</DESCRIPTION>
+		<STUDY_REF refname="PCAWG" refcenter="ICGC"></STUDY_REF>
+		<SAMPLE_REF refname="SA501459" refcenter="ICGC" label="bc4d3bc4-c622-11e3-bf01-24c6515278c0"></SAMPLE_REF>
+		<ANALYSIS_TYPE>
+			<REFERENCE_ALIGNMENT>
+				<ASSEMBLY>
+					<CUSTOM>
+						<DESCRIPTION>GRCh37 (hs37d5). See ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/README_human_reference_20110707 for more information. Briefly this is the integrated reference sequence from the GRCh37 primary assembly (chromosomal plus unlocalized and unplaced contigs), the rCRS mitochondrial sequence (AC:NC_012920), Human herpesvirus 4 type 1 (AC:NC_007605) and the concatenated decoy sequences (hs37d5cs.fa.gz)</DESCRIPTION>
+						<URL_LINK>
+							<URL>ftp://ftp.sanger.ac.uk/pub/project/PanCancer/</URL>
+						</URL_LINK>
+					</CUSTOM>
+				</ASSEMBLY>
+				<SEQUENCE accession="NC_000001.10" label="1"></SEQUENCE>
+				<SEQUENCE accession="NC_000002.11" label="2"></SEQUENCE>
+				<SEQUENCE accession="NC_000003.11" label="3"></SEQUENCE>
+				<SEQUENCE accession="NC_000004.11" label="4"></SEQUENCE>
+				<SEQUENCE accession="NC_000005.9" label="5"></SEQUENCE>
+				<SEQUENCE accession="NC_000006.11" label="6"></SEQUENCE>
+				<SEQUENCE accession="NC_000007.13" label="7"></SEQUENCE>
+				<SEQUENCE accession="NC_000008.10" label="8"></SEQUENCE>
+				<SEQUENCE accession="NC_000009.11" label="9"></SEQUENCE>
+				<SEQUENCE accession="NC_000010.10" label="10"></SEQUENCE>
+				<SEQUENCE accession="NC_000011.9" label="11"></SEQUENCE>
+				<SEQUENCE accession="NC_000012.11" label="12"></SEQUENCE>
+				<SEQUENCE accession="NC_000013.10" label="13"></SEQUENCE>
+				<SEQUENCE accession="NC_000014.8" label="14"></SEQUENCE>
+				<SEQUENCE accession="NC_000015.9" label="15"></SEQUENCE>
+				<SEQUENCE accession="NC_000016.9" label="16"></SEQUENCE>
+				<SEQUENCE accession="NC_000017.10" label="17"></SEQUENCE>
+				<SEQUENCE accession="NC_000018.9" label="18"></SEQUENCE>
+				<SEQUENCE accession="NC_000019.9" label="19"></SEQUENCE>
+				<SEQUENCE accession="NC_000020.10" label="20"></SEQUENCE>
+				<SEQUENCE accession="NC_000021.8" label="21"></SEQUENCE>
+				<SEQUENCE accession="NC_000022.10" label="22"></SEQUENCE>
+				<SEQUENCE accession="NC_000023.10" label="X"></SEQUENCE>
+				<SEQUENCE accession="NC_000024.9" label="Y"></SEQUENCE>
+				<SEQUENCE accession="NC_012920" label="MT"></SEQUENCE>
+				<SEQUENCE accession="GL000207.1" label="GL000207.1"></SEQUENCE>
+				<SEQUENCE accession="GL000226.1" label="GL000226.1"></SEQUENCE>
+				<SEQUENCE accession="GL000229.1" label="GL000229.1"></SEQUENCE>
+				<SEQUENCE accession="GL000231.1" label="GL000231.1"></SEQUENCE>
+				<SEQUENCE accession="GL000210.1" label="GL000210.1"></SEQUENCE>
+				<SEQUENCE accession="GL000239.1" label="GL000239.1"></SEQUENCE>
+				<SEQUENCE accession="GL000235.1" label="GL000235.1"></SEQUENCE>
+				<SEQUENCE accession="GL000201.1" label="GL000201.1"></SEQUENCE>
+				<SEQUENCE accession="GL000247.1" label="GL000247.1"></SEQUENCE>
+				<SEQUENCE accession="GL000245.1" label="GL000245.1"></SEQUENCE>
+				<SEQUENCE accession="GL000197.1" label="GL000197.1"></SEQUENCE>
+				<SEQUENCE accession="GL000203.1" label="GL000203.1"></SEQUENCE>
+				<SEQUENCE accession="GL000246.1" label="GL000246.1"></SEQUENCE>
+				<SEQUENCE accession="GL000249.1" label="GL000249.1"></SEQUENCE>
+				<SEQUENCE accession="GL000196.1" label="GL000196.1"></SEQUENCE>
+				<SEQUENCE accession="GL000248.1" label="GL000248.1"></SEQUENCE>
+				<SEQUENCE accession="GL000244.1" label="GL000244.1"></SEQUENCE>
+				<SEQUENCE accession="GL000238.1" label="GL000238.1"></SEQUENCE>
+				<SEQUENCE accession="GL000202.1" label="GL000202.1"></SEQUENCE>
+				<SEQUENCE accession="GL000234.1" label="GL000234.1"></SEQUENCE>
+				<SEQUENCE accession="GL000232.1" label="GL000232.1"></SEQUENCE>
+				<SEQUENCE accession="GL000206.1" label="GL000206.1"></SEQUENCE>
+				<SEQUENCE accession="GL000240.1" label="GL000240.1"></SEQUENCE>
+				<SEQUENCE accession="GL000236.1" label="GL000236.1"></SEQUENCE>
+				<SEQUENCE accession="GL000241.1" label="GL000241.1"></SEQUENCE>
+				<SEQUENCE accession="GL000243.1" label="GL000243.1"></SEQUENCE>
+				<SEQUENCE accession="GL000242.1" label="GL000242.1"></SEQUENCE>
+				<SEQUENCE accession="GL000230.1" label="GL000230.1"></SEQUENCE>
+				<SEQUENCE accession="GL000237.1" label="GL000237.1"></SEQUENCE>
+				<SEQUENCE accession="GL000233.1" label="GL000233.1"></SEQUENCE>
+				<SEQUENCE accession="GL000204.1" label="GL000204.1"></SEQUENCE>
+				<SEQUENCE accession="GL000198.1" label="GL000198.1"></SEQUENCE>
+				<SEQUENCE accession="GL000208.1" label="GL000208.1"></SEQUENCE>
+				<SEQUENCE accession="GL000191.1" label="GL000191.1"></SEQUENCE>
+				<SEQUENCE accession="GL000227.1" label="GL000227.1"></SEQUENCE>
+				<SEQUENCE accession="GL000228.1" label="GL000228.1"></SEQUENCE>
+				<SEQUENCE accession="GL000214.1" label="GL000214.1"></SEQUENCE>
+				<SEQUENCE accession="GL000221.1" label="GL000221.1"></SEQUENCE>
+				<SEQUENCE accession="GL000209.1" label="GL000209.1"></SEQUENCE>
+				<SEQUENCE accession="GL000218.1" label="GL000218.1"></SEQUENCE>
+				<SEQUENCE accession="GL000220.1" label="GL000220.1"></SEQUENCE>
+				<SEQUENCE accession="GL000213.1" label="GL000213.1"></SEQUENCE>
+				<SEQUENCE accession="GL000211.1" label="GL000211.1"></SEQUENCE>
+				<SEQUENCE accession="GL000199.1" label="GL000199.1"></SEQUENCE>
+				<SEQUENCE accession="GL000217.1" label="GL000217.1"></SEQUENCE>
+				<SEQUENCE accession="GL000216.1" label="GL000216.1"></SEQUENCE>
+				<SEQUENCE accession="GL000215.1" label="GL000215.1"></SEQUENCE>
+				<SEQUENCE accession="GL000205.1" label="GL000205.1"></SEQUENCE>
+				<SEQUENCE accession="GL000219.1" label="GL000219.1"></SEQUENCE>
+				<SEQUENCE accession="GL000224.1" label="GL000224.1"></SEQUENCE>
+				<SEQUENCE accession="GL000223.1" label="GL000223.1"></SEQUENCE>
+				<SEQUENCE accession="GL000195.1" label="GL000195.1"></SEQUENCE>
+				<SEQUENCE accession="GL000212.1" label="GL000212.1"></SEQUENCE>
+				<SEQUENCE accession="GL000222.1" label="GL000222.1"></SEQUENCE>
+				<SEQUENCE accession="GL000200.1" label="GL000200.1"></SEQUENCE>
+				<SEQUENCE accession="GL000193.1" label="GL000193.1"></SEQUENCE>
+				<SEQUENCE accession="GL000194.1" label="GL000194.1"></SEQUENCE>
+				<SEQUENCE accession="GL000225.1" label="GL000225.1"></SEQUENCE>
+				<SEQUENCE accession="GL000192.1" label="GL000192.1"></SEQUENCE>
+				<SEQUENCE accession="NC_007605" label="NC_007605"></SEQUENCE>
+				<SEQUENCE accession="hs37d5" label="hs37d5"></SEQUENCE>
+			</REFERENCE_ALIGNMENT>
+		</ANALYSIS_TYPE>
+		<FILES>
+			<FILE filename="f0f7f376-8c5d-4af9-b627-c1a5d6b6cdbb/e0b992d6bec14ef4b4ba4b7f07370a11.bam" filetype="bam" checksum_method="MD5" checksum="54748800cb5ada31554799d04307225b" unencrypted_checksum="09450ce6c242cb18878779e91a26292f"></FILE>
+			<FILE filename="f0f7f376-8c5d-4af9-b627-c1a5d6b6cdbb/e0b992d6bec14ef4b4ba4b7f07370a11.bam.bai" filetype="bai" checksum_method="MD5" checksum="d82d65f2d5da320c2ebedf4cf5ad1b02" unencrypted_checksum="8c9707d5079d4f4e7fbe97ffdc38b138"></FILE>
+			<FILE filename="f0f7f376-8c5d-4af9-b627-c1a5d6b6cdbb/analysis.f0f7f376-8c5d-4af9-b627-c1a5d6b6cdbb.GNOS.xml.gz" filetype="readme_file" checksum_method="MD5" checksum="5d61f60153f6fb50703c79c4ae21f702" unencrypted_checksum="ea9c679f52923f97e6be614efcd881bb"></FILE>
+		</FILES>
+		<ANALYSIS_ATTRIBUTES>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_project_code</TAG>
+				<VALUE>LIRI-JP</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_donor_id</TAG>
+				<VALUE>RK109</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_sample_id</TAG>
+				<VALUE>RK109_B01</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_specimen_type</TAG>
+				<VALUE>Normal - blood derived</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>use_cntl</TAG>
+				<VALUE>N/A</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>PM</TAG>
+				<VALUE>Illumina HiSeq 2000</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>pipeline_input_info</TAG>
+				<VALUE>{"pipeline_input_info":[{"read_group_id":"RIKEN:RK109_B01","input_info":{"platform_unit":"RIKEN:AD07MTACXX","donor_id":"RK109","library":"WGS:RIKEN:RK109_B01_L01","analyzed_sample":"RK109_B01","target_sample_refname":"bc4d3bc4-c622-11e3-bf01-24c6515278c0","specimen_id":"RK109_B01","bam_file":"BC6910F6-C622-11E3-BF01-24C6515278C0.bam","analysis_id":"1f035a16-da58-11e3-b133-af88058fb7ba"}},{"read_group_id":"RIKEN:RK109_B01","input_info":{"platform_unit":"RIKEN:BD0CEFACXX","donor_id":"RK109","library":"WGS:RIKEN:RK109_B01_L01","analyzed_sample":"RK109_B01","target_sample_refname":"bc4d3bc4-c622-11e3-bf01-24c6515278c0","specimen_id":"RK109_B01","bam_file":"BC923666-C622-11E3-BF01-24C6515278C0.bam","analysis_id":"1f0d9e04-da58-11e3-b133-af88058fb7ba"}},{"read_group_id":"RIKEN:RK109_B01","input_info":{"platform_unit":"RIKEN:BD0CEFACXX","donor_id":"RK109","library":"WGS:RIKEN:RK109_B01_L01","analyzed_sample":"RK109_B01","target_sample_refname":"bc4d3bc4-c622-11e3-bf01-24c6515278c0","specimen_id":"RK109_B01","bam_file":"BC89909C-C622-11E3-BF01-24C6515278C0.bam","analysis_id":"1f0865ce-da58-11e3-b133-af88058fb7ba"}}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>total_lanes</TAG>
+				<VALUE>3</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_specimen_id</TAG>
+				<VALUE>RK109_B01</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_name</TAG>
+				<VALUE>Workflow_Bundle_BWA</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_version</TAG>
+				<VALUE>2.6.1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_source_url</TAG>
+				<VALUE>https://github.com/SeqWare/public-workflows/tree/2.6.1/workflow-bwa-pancancer</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_bundle_url</TAG>
+				<VALUE>https://s3.amazonaws.com/oicr.workflow.bundles/released-bundles/Workflow_Bundle_BWA_2.6.1_SeqWare_1.0.15.zip</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_output_bam_contents</TAG>
+				<VALUE>aligned+unaligned</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>bwa_version</TAG>
+				<VALUE>0.7.8-r455</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>biobambam_version</TAG>
+				<VALUE>0.0.148</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>PCAP-core_version</TAG>
+				<VALUE>1.1.1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>qc_metrics</TAG>
+				<VALUE>{"qc_metrics":[{"metrics":{"mean_insert_size":"479.142","#_mapped_reads_r1":"164818788","read_length_r1":"101","#_mapped_reads":"329495278","#_total_reads":"329669746","#_mapped_reads_r2":"164676490","platform":"ILLUMINA","readgroup":"RIKEN:RK109_B01'","#_duplicate_reads":"0","#_divergent_bases_r2":"103401517","#_gc_bases_r2":"6587482483","library":"WGS:RIKEN:RK109_B01_L01","median_insert_size":"486.000","#_mapped_bases_r1":"16569289595","#_mapped_bases_r2":"16244029959","read_length_r2":"101","#_divergent_bases_r1":"72397016","sample":"BC4D3BC4-C622-11E3-BF01-24C6515278C0","#_mapped_reads_properly_paired":"144792996","insert_size_sd":"78.774","#_total_reads_r2":"164834873","#_mapped_bases":"32813319554","#_gc_bases_r1":"6590256115","#_divergent_bases":"175798533","platform_unit":"RIKEN:BD0CEFACXX_3#ACTTGA","#_total_reads_r1":"164834873","bam_filename":"out_1.bam"},"read_group_id":"RIKEN:RK109_B01'"},{"read_group_id":"RIKEN:RK109_B01''","metrics":{"#_mapped_bases_r2":"15985632542","#_mapped_bases_r1":"16300908411","read_length_r2":"101","#_divergent_bases_r1":"71518518","median_insert_size":"486.000","#_gc_bases_r2":"6483109495","#_divergent_bases_r2":"98260446","library":"WGS:RIKEN:RK109_B01_L01","readgroup":"RIKEN:RK109_B01''","#_duplicate_reads":"0","platform":"ILLUMINA","#_total_reads":"324389208","#_mapped_reads_r2":"162029708","#_mapped_reads":"324208145","mean_insert_size":"479.445","#_mapped_reads_r1":"162178437","read_length_r1":"101","platform_unit":"RIKEN:BD0CEFACXX_4#ACTTGA","#_total_reads_r1":"162194604","bam_filename":"out_2.bam","#_mapped_bases":"32286540953","#_gc_bases_r1":"6486215453","#_divergent_bases":"169778964","insert_size_sd":"78.729","#_total_reads_r2":"162194604","#_mapped_reads_properly_paired":"142421646","sample":"BC4D3BC4-C622-11E3-BF01-24C6515278C0"}},{"metrics":{"sample":"BC4D3BC4-C622-11E3-BF01-24C6515278C0","#_mapped_reads_properly_paired":"153337981","insert_size_sd":"79.355","#_total_reads_r2":"174715430","#_total_reads_r1":"174715430","bam_filename":"out_0.bam","platform_unit":"RIKEN:AD07MTACXX_5#ACTTGA","#_mapped_bases":"34615381624","#_gc_bases_r1":"7000503779","#_divergent_bases":"285501322","#_mapped_reads":"349253000","mean_insert_size":"477.260","#_mapped_reads_r1":"174671811","read_length_r1":"101","platform":"ILLUMINA","#_mapped_reads_r2":"174581189","#_total_reads":"349430860","#_divergent_bases_r2":"160098566","#_gc_bases_r2":"7003787025","library":"WGS:RIKEN:RK109_B01_L01","readgroup":"RIKEN:RK109_B01","#_duplicate_reads":"0","#_mapped_bases_r2":"17125947158","#_mapped_bases_r1":"17489434466","read_length_r2":"101","#_divergent_bases_r1":"125402756","median_insert_size":"484.000"},"read_group_id":"RIKEN:RK109_B01"}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>timing_metrics</TAG>
+				<VALUE>{"timing_metrics":[{"read_group_id":"RIKEN:RK109_B01","metrics":{"merge_timing_seconds":63219,"bwa_timing_seconds":42438,"qc_timing_seconds":20689,"download_timing_seconds":"not_collected"}},{"read_group_id":"RIKEN:RK109_B01","metrics":{"merge_timing_seconds":63219,"bwa_timing_seconds":42297,"qc_timing_seconds":13869,"download_timing_seconds":"not_collected"}},{"read_group_id":"RIKEN:RK109_B01","metrics":{"merge_timing_seconds":63219,"bwa_timing_seconds":49504,"qc_timing_seconds":20740,"download_timing_seconds":"not_collected"}}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>markduplicates_metrics</TAG>
+				<VALUE>{"markduplicates_metrics":[{"metrics":{"unpaired_read_duplicates":"272576","unmapped_reads":"533391","read_pairs_examined":"503210852","library":"WGS:RIKEN:RK109_B01_L01","read_pair_duplicates":"63608800","percent_duplication":"0.126593","unpaired_reads_examined":"664483","read_pair_optical_duplicates":"0"},"library":"WGS:RIKEN:RK109_B01_L01"}],"note":"The metrics are produced by bammarkduplicates tool of the Biobambam package"}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+		</ANALYSIS_ATTRIBUTES>
+	</ANALYSIS>
+</ANALYSIS_SET>
