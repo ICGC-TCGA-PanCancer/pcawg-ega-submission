@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-EGA_TOKEN=$1
+EGA_TOKEN="'$1'"
 PROJECT=$2
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
@@ -12,10 +12,10 @@ cd $PROJECT/analysis_alignment.PCAWG_WGS_BWA
 
 
 echo prepare the dataset xml
-ega_sub --auth "$EGA_TOKEN" prepare dataset analysis
+ega_sub --auth $EGA_TOKEN prepare dataset analysis
 
 echo submit the dataset
-ega_sub --auth "$EGA_TOKEN" submit dataset dataset.$PROJECT\_PCAWG_WGS_BWA.xml 
+ega_sub --auth $EGA_TOKEN submit dataset dataset.$PROJECT\_PCAWG_WGS_BWA.xml 
 
 echo check the dataset information into GIT
 git checkout master

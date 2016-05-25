@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-EGA_TOKEN=$1
+EGA_TOKEN="'$1'"
 PROJECT=$2
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
@@ -14,10 +14,10 @@ echo make subfolder analysis when not exist
 mkdir -p $ANALYSIS
 
 echo prepare the analysis xml
-ega_sub --auth "$EGA_TOKEN" prepare analysis GNOS_xml
+ega_sub --auth $EGA_TOKEN prepare analysis GNOS_xml
 
 echo submit the analysis 
-ega_sub --auth "$EGA_TOKEN" submit analysis analysis
+ega_sub --auth $EGA_TOKEN submit analysis analysis
 
 echo check the analysis information into GIT
 git checkout master
