@@ -152,7 +152,7 @@ ega_sub --auth 'xxxx' submit analysis analysis
 ```
 Upon successful submission, EGA receipt XML will be stored under the same folder for later use.
 
-Finally, after all Analysis objects are submitted to EGA, we create EGA dataset which will include all these Analysis objects.
+Then, after all Analysis objects are submitted to EGA, we create EGA dataset which will include all these Analysis objects.
 This is done the following two steps:
 ```
 ega_sub --auth 'xxxx' prepare dataset analysis
@@ -160,6 +160,12 @@ ega_sub --auth 'xxxx' submit dataset dataset.*_PCAWG_WGS_BWA.xml
 ```
 Important, this must be done after all analysis objects have been submitted. We create only one dataset for each data type per ICGC project.
 
+Finally, in order to make the data browsable in the DCC portal, we need to create the mapping file for each dataset. 
+Note that we should request EGA side to provide the Sample-File mapping, then we can proceed to prepare the mapping file, do this:
+```
+ega_sub --auth 'xxxx' prepare mapping dataset.*_PCAWG_WGS_BWA.xml
+```
+  
 Once done with one data type, we can move on to the other data type in the same project or move on to another project.
 
 ### Tips
