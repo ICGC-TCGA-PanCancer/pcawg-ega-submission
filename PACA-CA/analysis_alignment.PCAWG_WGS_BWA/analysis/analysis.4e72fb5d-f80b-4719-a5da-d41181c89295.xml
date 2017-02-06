@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ANALYSIS_SET>
+	<ANALYSIS alias="4e72fb5d-f80b-4719-a5da-d41181c89295" center_name="OICR" broker_name="EGA" analysis_center="OICR" analysis_date="2014-10-13T10:08:05">
+		<TITLE>TCGA/ICGC PanCancer Specimen-Level Alignment for Specimen ASHPC_0016_Pa_P from Participant PCSI_0402</TITLE>
+		<DESCRIPTION>Specimen-level BAM from the reference alignment of specimen ASHPC_0016_Pa_P from donor PCSI_0402. This uses the SeqWare BWA-MEM PanCancer Workflow version 2.6.1 available at https://s3.amazonaws.com/oicr.workflow.bundles/released-bundles/Workflow_Bundle_BWA_2.6.1_SeqWare_1.0.15.zip. This workflow can be created from source, see https://github.com/SeqWare/public-workflows/tree/2.6.1/workflow-bwa-pancancer. For a complete change log see https://github.com/SeqWare/public-workflows/blob/2.6.1/workflow-bwa-pancancer/CHANGELOG.md. Input BAMs are prepared and submitted to GNOS server according to the submission SOP documented at: https://wiki.oicr.on.ca/display/PANCANCER/PCAP+%28a.k.a.+PAWG%29+Sequence+Submission+SOP+-+v1.0. Please note the reference is hs37d, see ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/README_human_reference_20110707 for more information. Briefly this is the integrated reference sequence from the GRCh37 primary assembly (chromosomal plus unlocalized and unplaced contigs), the rCRS mitochondrial sequence (AC:NC_012920), Human herpesvirus 4 type 1 (AC:NC_007605) and the concatenated decoy sequences (hs37d5cs.fa.gz).</DESCRIPTION>
+		<STUDY_REF refname="PCAWG" refcenter="ICGC"></STUDY_REF>
+		<SAMPLE_REF refname="SA520239" refcenter="ICGC" label="4e1b8e31-3775-4361-bbb4-425b1dfffa27"></SAMPLE_REF>
+		<ANALYSIS_TYPE>
+			<REFERENCE_ALIGNMENT>
+				<ASSEMBLY>
+					<CUSTOM>
+						<DESCRIPTION>GRCh37 (hs37d5). See ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/README_human_reference_20110707 for more information. Briefly this is the integrated reference sequence from the GRCh37 primary assembly (chromosomal plus unlocalized and unplaced contigs), the rCRS mitochondrial sequence (AC:NC_012920), Human herpesvirus 4 type 1 (AC:NC_007605) and the concatenated decoy sequences (hs37d5cs.fa.gz)</DESCRIPTION>
+						<URL_LINK>
+							<URL>ftp://ftp.sanger.ac.uk/pub/project/PanCancer/</URL>
+						</URL_LINK>
+					</CUSTOM>
+				</ASSEMBLY>
+				<SEQUENCE accession="NC_000001.10" label="1"></SEQUENCE>
+				<SEQUENCE accession="NC_000002.11" label="2"></SEQUENCE>
+				<SEQUENCE accession="NC_000003.11" label="3"></SEQUENCE>
+				<SEQUENCE accession="NC_000004.11" label="4"></SEQUENCE>
+				<SEQUENCE accession="NC_000005.9" label="5"></SEQUENCE>
+				<SEQUENCE accession="NC_000006.11" label="6"></SEQUENCE>
+				<SEQUENCE accession="NC_000007.13" label="7"></SEQUENCE>
+				<SEQUENCE accession="NC_000008.10" label="8"></SEQUENCE>
+				<SEQUENCE accession="NC_000009.11" label="9"></SEQUENCE>
+				<SEQUENCE accession="NC_000010.10" label="10"></SEQUENCE>
+				<SEQUENCE accession="NC_000011.9" label="11"></SEQUENCE>
+				<SEQUENCE accession="NC_000012.11" label="12"></SEQUENCE>
+				<SEQUENCE accession="NC_000013.10" label="13"></SEQUENCE>
+				<SEQUENCE accession="NC_000014.8" label="14"></SEQUENCE>
+				<SEQUENCE accession="NC_000015.9" label="15"></SEQUENCE>
+				<SEQUENCE accession="NC_000016.9" label="16"></SEQUENCE>
+				<SEQUENCE accession="NC_000017.10" label="17"></SEQUENCE>
+				<SEQUENCE accession="NC_000018.9" label="18"></SEQUENCE>
+				<SEQUENCE accession="NC_000019.9" label="19"></SEQUENCE>
+				<SEQUENCE accession="NC_000020.10" label="20"></SEQUENCE>
+				<SEQUENCE accession="NC_000021.8" label="21"></SEQUENCE>
+				<SEQUENCE accession="NC_000022.10" label="22"></SEQUENCE>
+				<SEQUENCE accession="NC_000023.10" label="X"></SEQUENCE>
+				<SEQUENCE accession="NC_000024.9" label="Y"></SEQUENCE>
+				<SEQUENCE accession="NC_012920" label="MT"></SEQUENCE>
+				<SEQUENCE accession="GL000207.1" label="GL000207.1"></SEQUENCE>
+				<SEQUENCE accession="GL000226.1" label="GL000226.1"></SEQUENCE>
+				<SEQUENCE accession="GL000229.1" label="GL000229.1"></SEQUENCE>
+				<SEQUENCE accession="GL000231.1" label="GL000231.1"></SEQUENCE>
+				<SEQUENCE accession="GL000210.1" label="GL000210.1"></SEQUENCE>
+				<SEQUENCE accession="GL000239.1" label="GL000239.1"></SEQUENCE>
+				<SEQUENCE accession="GL000235.1" label="GL000235.1"></SEQUENCE>
+				<SEQUENCE accession="GL000201.1" label="GL000201.1"></SEQUENCE>
+				<SEQUENCE accession="GL000247.1" label="GL000247.1"></SEQUENCE>
+				<SEQUENCE accession="GL000245.1" label="GL000245.1"></SEQUENCE>
+				<SEQUENCE accession="GL000197.1" label="GL000197.1"></SEQUENCE>
+				<SEQUENCE accession="GL000203.1" label="GL000203.1"></SEQUENCE>
+				<SEQUENCE accession="GL000246.1" label="GL000246.1"></SEQUENCE>
+				<SEQUENCE accession="GL000249.1" label="GL000249.1"></SEQUENCE>
+				<SEQUENCE accession="GL000196.1" label="GL000196.1"></SEQUENCE>
+				<SEQUENCE accession="GL000248.1" label="GL000248.1"></SEQUENCE>
+				<SEQUENCE accession="GL000244.1" label="GL000244.1"></SEQUENCE>
+				<SEQUENCE accession="GL000238.1" label="GL000238.1"></SEQUENCE>
+				<SEQUENCE accession="GL000202.1" label="GL000202.1"></SEQUENCE>
+				<SEQUENCE accession="GL000234.1" label="GL000234.1"></SEQUENCE>
+				<SEQUENCE accession="GL000232.1" label="GL000232.1"></SEQUENCE>
+				<SEQUENCE accession="GL000206.1" label="GL000206.1"></SEQUENCE>
+				<SEQUENCE accession="GL000240.1" label="GL000240.1"></SEQUENCE>
+				<SEQUENCE accession="GL000236.1" label="GL000236.1"></SEQUENCE>
+				<SEQUENCE accession="GL000241.1" label="GL000241.1"></SEQUENCE>
+				<SEQUENCE accession="GL000243.1" label="GL000243.1"></SEQUENCE>
+				<SEQUENCE accession="GL000242.1" label="GL000242.1"></SEQUENCE>
+				<SEQUENCE accession="GL000230.1" label="GL000230.1"></SEQUENCE>
+				<SEQUENCE accession="GL000237.1" label="GL000237.1"></SEQUENCE>
+				<SEQUENCE accession="GL000233.1" label="GL000233.1"></SEQUENCE>
+				<SEQUENCE accession="GL000204.1" label="GL000204.1"></SEQUENCE>
+				<SEQUENCE accession="GL000198.1" label="GL000198.1"></SEQUENCE>
+				<SEQUENCE accession="GL000208.1" label="GL000208.1"></SEQUENCE>
+				<SEQUENCE accession="GL000191.1" label="GL000191.1"></SEQUENCE>
+				<SEQUENCE accession="GL000227.1" label="GL000227.1"></SEQUENCE>
+				<SEQUENCE accession="GL000228.1" label="GL000228.1"></SEQUENCE>
+				<SEQUENCE accession="GL000214.1" label="GL000214.1"></SEQUENCE>
+				<SEQUENCE accession="GL000221.1" label="GL000221.1"></SEQUENCE>
+				<SEQUENCE accession="GL000209.1" label="GL000209.1"></SEQUENCE>
+				<SEQUENCE accession="GL000218.1" label="GL000218.1"></SEQUENCE>
+				<SEQUENCE accession="GL000220.1" label="GL000220.1"></SEQUENCE>
+				<SEQUENCE accession="GL000213.1" label="GL000213.1"></SEQUENCE>
+				<SEQUENCE accession="GL000211.1" label="GL000211.1"></SEQUENCE>
+				<SEQUENCE accession="GL000199.1" label="GL000199.1"></SEQUENCE>
+				<SEQUENCE accession="GL000217.1" label="GL000217.1"></SEQUENCE>
+				<SEQUENCE accession="GL000216.1" label="GL000216.1"></SEQUENCE>
+				<SEQUENCE accession="GL000215.1" label="GL000215.1"></SEQUENCE>
+				<SEQUENCE accession="GL000205.1" label="GL000205.1"></SEQUENCE>
+				<SEQUENCE accession="GL000219.1" label="GL000219.1"></SEQUENCE>
+				<SEQUENCE accession="GL000224.1" label="GL000224.1"></SEQUENCE>
+				<SEQUENCE accession="GL000223.1" label="GL000223.1"></SEQUENCE>
+				<SEQUENCE accession="GL000195.1" label="GL000195.1"></SEQUENCE>
+				<SEQUENCE accession="GL000212.1" label="GL000212.1"></SEQUENCE>
+				<SEQUENCE accession="GL000222.1" label="GL000222.1"></SEQUENCE>
+				<SEQUENCE accession="GL000200.1" label="GL000200.1"></SEQUENCE>
+				<SEQUENCE accession="GL000193.1" label="GL000193.1"></SEQUENCE>
+				<SEQUENCE accession="GL000194.1" label="GL000194.1"></SEQUENCE>
+				<SEQUENCE accession="GL000225.1" label="GL000225.1"></SEQUENCE>
+				<SEQUENCE accession="GL000192.1" label="GL000192.1"></SEQUENCE>
+				<SEQUENCE accession="NC_007605" label="NC_007605"></SEQUENCE>
+				<SEQUENCE accession="hs37d5" label="hs37d5"></SEQUENCE>
+			</REFERENCE_ALIGNMENT>
+		</ANALYSIS_TYPE>
+		<FILES>
+			<FILE filename="4e72fb5d-f80b-4719-a5da-d41181c89295/0ded34e662030cb0375c63e692ed5f7e.bam" filetype="bam" checksum_method="MD5" checksum="fdd693258aee06c601cef1013fb9b015" unencrypted_checksum="0ded34e662030cb0375c63e692ed5f7e"></FILE>
+			<FILE filename="4e72fb5d-f80b-4719-a5da-d41181c89295/0ded34e662030cb0375c63e692ed5f7e.bam.bai" filetype="bai" checksum_method="MD5" checksum="3493f8ee99554769c15f6539635c956a" unencrypted_checksum="d32b60ea6ce8b25c244305c74312f1be"></FILE>
+			<FILE filename="4e72fb5d-f80b-4719-a5da-d41181c89295/analysis.4e72fb5d-f80b-4719-a5da-d41181c89295.GNOS.xml.gz" filetype="readme_file" checksum_method="MD5" checksum="1c5e3b547132842ae35ebe9edec147a0" unencrypted_checksum="dd38e221ecd3f048daaf25f2c5e1353f"></FILE>
+		</FILES>
+		<ANALYSIS_ATTRIBUTES>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_project_code</TAG>
+				<VALUE>PACA-CA</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_donor_id</TAG>
+				<VALUE>PCSI_0402</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_sample_id</TAG>
+				<VALUE>ASHPC_0016_Pa_P</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>dcc_specimen_type</TAG>
+				<VALUE>Primary tumour - other</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>use_cntl</TAG>
+				<VALUE>93d3ca03-68da-406f-b008-f2ea4b81aabb</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>total_lanes</TAG>
+				<VALUE>6</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>pipeline_input_info</TAG>
+				<VALUE>{"pipeline_input_info":[{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_1_NoIndex","input_info":{"platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_1_130807_SN801_0120_AC2AFBACXX.unaligned.bam","analysis_id":"549694d2-cc79-11e3-adc4-b2fcf2da58c9"}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_3_NoIndex","input_info":{"platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_3_130807_SN801_0120_AC2AFBACXX.unaligned.bam","analysis_id":"54ae4816-cc79-11e3-adc4-b2fcf2da58c9"}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_2_NoIndex","input_info":{"platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_2_130807_SN801_0120_AC2AFBACXX.unaligned.bam","analysis_id":"54a3f500-cc79-11e3-adc4-b2fcf2da58c9"}},{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_7_NoIndex","input_info":{"platform_unit":"OICR:130802_h239_0203_BD282RACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_7_130802_h239_0203_BD282RACXX.unaligned.bam","analysis_id":"54bbc05e-cc79-11e3-adc4-b2fcf2da58c9"}},{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_6_NoIndex","input_info":{"platform_unit":"OICR:130802_h239_0203_BD282RACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_6_130802_h239_0203_BD282RACXX.unaligned.bam","analysis_id":"54b569a2-cc79-11e3-adc4-b2fcf2da58c9"}},{"read_group_id":"OICR:130801_SN7001179_0135_AC262HACXX_2_NoIndex","input_info":{"platform_unit":"OICR:130801_SN7001179_0135_AC262HACXX","donor_id":"PCSI_0402","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","analyzed_sample":"ASHPC_0016_Pa_P","target_sample_refname":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","specimen_id":"ASHPC_0016_Pa_P","bam_file":"ASHPC_0016_Pa_P_PE_650_WG_NoIndex_2_130801_SN7001179_0135_AC262HACXX.unaligned.bam","analysis_id":"549ec2ba-cc79-11e3-adc4-b2fcf2da58c9"}}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>submitter_specimen_id</TAG>
+				<VALUE>ASHPC_0016_Pa_P</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_name</TAG>
+				<VALUE>Workflow_Bundle_BWA</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_version</TAG>
+				<VALUE>2.6.1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_source_url</TAG>
+				<VALUE>https://github.com/SeqWare/public-workflows/tree/2.6.1/workflow-bwa-pancancer</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_bundle_url</TAG>
+				<VALUE>https://s3.amazonaws.com/oicr.workflow.bundles/released-bundles/Workflow_Bundle_BWA_2.6.1_SeqWare_1.0.15.zip</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>workflow_output_bam_contents</TAG>
+				<VALUE>aligned+unaligned</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>bwa_version</TAG>
+				<VALUE>0.7.8-r455</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>biobambam_version</TAG>
+				<VALUE>0.0.148</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>PCAP-core_version</TAG>
+				<VALUE>1.1.1</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>qc_metrics</TAG>
+				<VALUE>{"qc_metrics":[{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_6_NoIndex","metrics":{"#_total_reads_r2":"185217148","read_length_r1":"101","#_gc_bases_r1":"7642348110","platform_unit":"OICR:130802_h239_0203_BD282RACXX_6","#_duplicate_reads":"0","#_mapped_bases":"32795023274","mean_insert_size":"242.622","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"184327090","#_divergent_bases":"355009090","#_mapped_reads_properly_paired":"148535651","#_divergent_bases_r2":"266168606","read_length_r2":"101","#_mapped_bases_r1":"17784956132","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130802_h239_0203_BD282RACXX_6_NoIndex","#_divergent_bases_r1":"88840484","#_mapped_bases_r2":"15010067142","#_total_reads":"370434296","#_gc_bases_r2":"8136895012","median_insert_size":"212.000","insert_size_sd":"141.550","bam_filename":"out_4.bam","#_total_reads_r1":"185217148","#_mapped_reads_r2":"176496979","#_mapped_reads":"360824069"}},{"read_group_id":"OICR:130801_SN7001179_0135_AC262HACXX_2_NoIndex","metrics":{"#_total_reads_r2":"217687394","read_length_r1":"101","#_gc_bases_r1":"9037799747","platform_unit":"OICR:130801_SN7001179_0135_AC262HACXX_2","#_duplicate_reads":"0","#_mapped_bases":"42005148824","mean_insert_size":"286.896","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"216698987","#_divergent_bases":"194173407","#_mapped_reads_properly_paired":"205028294","#_divergent_bases_r2":"115058374","read_length_r2":"101","#_mapped_bases_r1":"21104052323","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130801_SN7001179_0135_AC262HACXX_2_NoIndex","#_divergent_bases_r1":"79115033","#_mapped_bases_r2":"20901096501","#_total_reads":"435374788","#_gc_bases_r2":"9024697139","median_insert_size":"241.000","insert_size_sd":"183.118","bam_filename":"out_1.bam","#_total_reads_r1":"217687394","#_mapped_reads_r2":"216492631","#_mapped_reads":"433191618"}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_1_NoIndex","metrics":{"#_total_reads_r2":"173859518","read_length_r1":"101","#_gc_bases_r1":"7209530250","platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX_1","#_duplicate_reads":"0","#_mapped_bases":"33291075644","mean_insert_size":"295.259","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"173069309","#_divergent_bases":"202635990","#_mapped_reads_properly_paired":"161847195","#_divergent_bases_r2":"118808564","read_length_r2":"101","#_mapped_bases_r1":"16838194753","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130807_SN801_0120_AC2AFBACXX_1_NoIndex","#_divergent_bases_r1":"83827426","#_mapped_bases_r2":"16452880891","#_total_reads":"347719036","#_gc_bases_r2":"7163635538","median_insert_size":"250.000","insert_size_sd":"186.838","bam_filename":"out_0.bam","#_total_reads_r1":"173859518","#_mapped_reads_r2":"172436472","#_mapped_reads":"345505781"}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_3_NoIndex","metrics":{"#_total_reads_r2":"176999282","read_length_r1":"101","#_gc_bases_r1":"7339066084","platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX_3","#_duplicate_reads":"0","#_mapped_bases":"34002676208","mean_insert_size":"295.760","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"176213006","#_divergent_bases":"200493171","#_mapped_reads_properly_paired":"165515234","#_divergent_bases_r2":"119553214","read_length_r2":"101","#_mapped_bases_r1":"17174221678","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130807_SN801_0120_AC2AFBACXX_3_NoIndex","#_divergent_bases_r1":"80939957","#_mapped_bases_r2":"16828454530","#_total_reads":"353998564","#_gc_bases_r2":"7312581654","median_insert_size":"250.000","insert_size_sd":"186.438","bam_filename":"out_3.bam","#_total_reads_r1":"176999282","#_mapped_reads_r2":"175897452","#_mapped_reads":"352110458"}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_2_NoIndex","metrics":{"#_total_reads_r2":"179246221","read_length_r1":"101","#_gc_bases_r1":"7430090145","platform_unit":"OICR:130807_SN801_0120_AC2AFBACXX_2","#_duplicate_reads":"0","#_mapped_bases":"34472215472","mean_insert_size":"298.013","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"178449740","#_divergent_bases":"193764990","#_mapped_reads_properly_paired":"167707227","#_divergent_bases_r2":"116727679","read_length_r2":"101","#_mapped_bases_r1":"17408006250","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130807_SN801_0120_AC2AFBACXX_2_NoIndex","#_divergent_bases_r1":"77037311","#_mapped_bases_r2":"17064209222","#_total_reads":"358492442","#_gc_bases_r2":"7398080639","median_insert_size":"252.000","insert_size_sd":"188.292","bam_filename":"out_2.bam","#_total_reads_r1":"179246221","#_mapped_reads_r2":"178079544","#_mapped_reads":"356529284"}},{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_7_NoIndex","metrics":{"#_total_reads_r2":"186522397","read_length_r1":"101","#_gc_bases_r1":"7694713896","platform_unit":"OICR:130802_h239_0203_BD282RACXX_7","#_duplicate_reads":"0","#_mapped_bases":"33022030896","mean_insert_size":"244.701","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","#_mapped_reads_r1":"185629380","#_divergent_bases":"367489806","#_mapped_reads_properly_paired":"150601158","#_divergent_bases_r2":"274314397","read_length_r2":"101","#_mapped_bases_r1":"17906284882","sample":"4e1b8e31-3775-4361-bbb4-425b1dfffa27","platform":"ILLUMINA","readgroup":"OICR:130802_h239_0203_BD282RACXX_7_NoIndex","#_divergent_bases_r1":"93175409","#_mapped_bases_r2":"15115746014","#_total_reads":"373044794","#_gc_bases_r2":"8182643310","median_insert_size":"213.000","insert_size_sd":"142.996","bam_filename":"out_5.bam","#_total_reads_r1":"186522397","#_mapped_reads_r2":"177826031","#_mapped_reads":"363455411"}}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>timing_metrics</TAG>
+				<VALUE>{"timing_metrics":[{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_6_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":38127,"qc_timing_seconds":11432,"download_timing_seconds":13735}},{"read_group_id":"OICR:130801_SN7001179_0135_AC262HACXX_2_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":29754,"qc_timing_seconds":9897,"download_timing_seconds":14231}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_1_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":23908,"qc_timing_seconds":8176,"download_timing_seconds":8098}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_3_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":27330,"qc_timing_seconds":9985,"download_timing_seconds":4611}},{"read_group_id":"OICR:130807_SN801_0120_AC2AFBACXX_2_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":26481,"qc_timing_seconds":8116,"download_timing_seconds":4611}},{"read_group_id":"OICR:130802_h239_0203_BD282RACXX_7_NoIndex","metrics":{"merge_timing_seconds":60274,"bwa_timing_seconds":48888,"qc_timing_seconds":9045,"download_timing_seconds":23675}}]}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+			<ANALYSIS_ATTRIBUTE>
+				<TAG>markduplicates_metrics</TAG>
+				<VALUE>{"markduplicates_metrics":[{"metrics":{"unpaired_read_duplicates":"19017738","unmapped_reads":"27447299","read_pairs_examined":"1107795760","library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG","read_pair_duplicates":"284477342","percent_duplication":"0.262455","unpaired_reads_examined":"24683418","read_pair_optical_duplicates":"0"},"library":"WGS:OICR:ASHPC_0016_Pa_P_PE_650_WG"}],"note":"The metrics are produced by bammarkduplicates tool of the Biobambam package"}</VALUE>
+			</ANALYSIS_ATTRIBUTE>
+		</ANALYSIS_ATTRIBUTES>
+	</ANALYSIS>
+</ANALYSIS_SET>
