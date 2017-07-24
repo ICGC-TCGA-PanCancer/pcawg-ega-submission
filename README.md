@@ -113,6 +113,7 @@ This step is being taken care of by EGA friends who have been transfering data f
 
 While preparing metadata XMLs the submission tool will also peek into the EGA FTP server to check whether the required files exist on the server, if not, it will be reported under `file_info/missed_files`. Follow-up action is needed to stage those files.
 
+
 #### Prepare and submit STUDY metadata
 The very first metadata object to be submitted is STUDY. This needs to take place under the `study` folder.
 
@@ -167,6 +168,38 @@ ega_sub --auth 'xxxx' prepare mapping dataset.*_PCAWG_WGS_BWA.xml
 ```
   
 Once done with one data type, we can move on to the other data type in the same project or move on to another project.
+
+
+#### Update metadata objects on EGA server
+
+If for any reasons, it needs to update any metadata object, such as Sample XML, Analaysis XML or Dataset XML, we can use `update` sub-command.
+
+To update Sample XML, the updated sample information is prepared first in a TSV file, which will be then used to update EGA sample XML. Assume the updated sample TSV is already made in `sample.PACA-AU.rna-seq_*_update.tsv`, To update the sample EGA XML, do this:
+```
+cd PACA-AU/sample
+ega_sub --auth 'xxx' prepare sample sample.PACA-AU.rna-seq_*_update.tsv
+```
+
+An XML will be generated as `sample.PACA-AU.rna-seq_*_update.xml` under the same folder, Now to update metadata objects on EGA server:
+```
+ega_sub --auth 'xxx' update sample sample.PACA-AU.rna-seq_*_update.xml
+```
+
+To update Analysis XML, first prepare updated EGA Analysis XML, do this:
+```
+cd PACA-AU/analysis_alignment.PCAWG_RNA-Seq_Star/
+ega_sub --auth 'xxxx' --force prepare analysis GNOS_xml
+```
+This will update Analysis XMLs in `analysis_alignment.PCAWG_RNA-Seq_Star/` that will then be used for update metadata objects on EGA server
+```
+ega_sub --auth 'xxxx' update analysis analysis
+```
+Upon successful submission, EGA MODIFY receipt XML will be stored under the same folder for later use.
+
+To update Dataset XML, we can edit the existing dataset xml file e.g.: `dataset.OV-AU_PCAWG_RNA-Seq_Star.xml` directly and then do this:
+```
+ega_sub --auth 'xxxx' update dataset dataset.OV-AU_PCAWG_RNA-Seq_Star.xml
+```
 
 ### Tips
 - Practise as much as needed using the TEST-* projects.
